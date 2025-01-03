@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Github, Twitter, Linkedin, Mail ,ChefHat} from 'lucide-react'
+import { Github, Linkedin, Mail ,ChefHat} from 'lucide-react'
 import { Button } from "../components/ui/button"
 import Profile from "../app/image.jpg"
 

@@ -48,6 +48,12 @@
     return (
       <>
         <Link
+          href="/"
+          className="hover:text-foreground/80 text-foreground/60 transition-colors"
+        >
+          Home
+        </Link>
+        <Link
           href="/projects"
           className="hover:text-foreground/80 text-foreground/60 transition-colors"
         >

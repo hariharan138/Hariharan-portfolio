@@ -21,7 +21,7 @@ export function Hero() {
           MERN Stack Developer
         </p>
         <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-        a MERN Developer skilled in React.js, JavaScript(ES6+),MongoDB,NodeJS and ExpressJS with expertise in responsive layouts, animations, and semantic markup.
+        I am Hariharan S, a MERN Developer  with expertise in web development and programming, creating innovative, user-centric solutions. With a B.E. in Computer and Communication Engineering and certifications in Azure (AZ-900) and AWS Cloud, I deliver high-quality projects.
         </p>
       </div>
       <div className="flex space-x-4">

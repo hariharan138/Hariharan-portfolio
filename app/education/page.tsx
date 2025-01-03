@@ -2,7 +2,7 @@ import { BlogPosts } from "@/components/blog-posts"
 
 export const metadata = {
   title: "Education | Hariharan",
-  description: "Read the latest articles by John Doe on web development and technology.",
+  description: "Read the latest articles by Hariharan on web development and technology.",
 }
 
 export default function BlogPage() {

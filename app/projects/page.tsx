@@ -2,7 +2,7 @@ import { Projects } from "@/components/projects"
 
 export const metadata = {
   title: "Projects | Hariahran",
-  description: "Explore the projects created by John Doe, a Full Stack Developer.",
+  description: "Explore the projects created by Hariharan, a MERN Stack Developer.",
 }
 
 export default function ProjectsPage() {

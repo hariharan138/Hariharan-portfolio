@@ -2,15 +2,15 @@
 
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 // import { Button } from "@/components/ui/button"
 // import { Input } from "@/components/ui/input"
 // import { Textarea } from "@/components/ui/textarea" // Ensure this path is correct
-import { ChevronDown, ChevronUp, Send } from 'lucide-react'
+import { ChevronDown, ChevronUp } from 'lucide-react'
 
 export default function AboutPage() {
   const [expandedSkill, setExpandedSkill] = useState<string | null>(null)
-  const [showContactForm, setShowContactForm] = useState(false)
+  
 
   const skills = [
     {

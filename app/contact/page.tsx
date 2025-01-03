@@ -2,7 +2,7 @@ import { Contact } from "@/components/contact"
 
 export const metadata = {
   title: "Contact | Hariharan",
-  description: "Get in touch with John Doe for collaboration or inquiries.",
+  description: "Get in touch with Hariharan for collaboration or inquiries.",
 }
 
 export default function ContactPage() {

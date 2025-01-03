@@ -33,7 +33,7 @@ export default function RootLayout({
                 <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
                   Built by Hariharan. The source code is available on {" "}
                   <a
-                    href="https://github.com/hariharan138/"
+                    href="https://github.com/hariharan138/Hariharan-portfolio"
                     target="_blank"
                     rel="noreferrer"
                     className="font-medium underline underline-offset-4"

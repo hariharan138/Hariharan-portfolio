@@ -59,4 +59,4 @@ A modern, responsive portfolio website built with Next.js 13, featuring a clean 
 
 1. Clone the repository
 ```bash
-git clone [https://github.com/yourusername/portfolio.git](https://github.com/hariharan138/Hariharan-portfolio.git)
+git clone https://github.com/hariharan138/Hariharan-portfolio.git

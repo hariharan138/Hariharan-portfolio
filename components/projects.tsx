@@ -4,35 +4,36 @@ import { useState } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
 import { Badge } from "../components/ui/badge"
 import { Button } from "../components/ui/button"
-import Image from "next/image"
+import Image, { StaticImageData } from "next/image"
 import { ExternalLink, ChevronDown, ChevronUp } from 'lucide-react'
 
 import trust from "../components/assets/trust.png"
 import quiz from "../components/assets/quiz.png"
 import sharetext from "../components/assets/sharetext.png"
 import admin from "../components/assets/admin.png"
-import yt  from "../components/assets/yt.png"
+import yt from "../components/assets/yt.png"
 import appointment from "../components/assets/appoint.png"
+
 interface Project {
   title: string
   description: string
   tags: string[]
   link: string
-  image: string
+  image: string | StaticImageData // Accept both string URLs and StaticImageData
 }
 
 const projects: Project[] = [
   {
     title: "Trust App",
     description: "A platform connecting users with registered trusts for seamless food donations. Core features include user registration, trust management, and real-time notifications.",
-    tags: ["React.js", "Node.js", "MongoDB","ExpressJs","MUI"],
+    tags: ["React.js", "Node.js", "MongoDB", "ExpressJs", "MUI"],
     link: "https://github.com/hariharan138/GlobalTrust",
     image: trust,
   },
   {
     title: "Quiz App",
     description: "A React-based skill evaluation app featuring dynamic question tracking, time management, and score calculation.",
-    tags: ["React.js", "JavaScript", "CSS","NodeJs","ExpressJs", "MongoDB"],
+    tags: ["React.js", "JavaScript", "CSS", "NodeJs", "ExpressJs", "MongoDB"],
     link: "https://quiz-app13.vercel.app/",
     image: quiz,
   },
@@ -46,7 +47,7 @@ const projects: Project[] = [
   {
     title: "ShareText",
     description: "A simple and efficient text-sharing app, allowing users to share snippets of text across devices seamlessly.",
-    tags: ["React.js", "JavaScript", "CSS","NodeJs","ExpressJs", "MongoDB"],
+    tags: ["React.js", "JavaScript", "CSS", "NodeJs", "ExpressJs", "MongoDB"],
     link: "https://sharetexts.vercel.app/",
     image: sharetext,
   },
@@ -62,7 +63,7 @@ const projects: Project[] = [
     description: "A streamlined app for managing appointments with features like scheduling, notifications, and user management.",
     tags: ["React.js", "MongoDB", "Node.js", "Express.js"],
     link: "https://github.com/hariharan138/appointment-management",
-    image : appointment ,
+    image: appointment,
   }
 ]
 
@@ -147,4 +148,3 @@ export function Projects() {
     </section>
   )
 }
-
